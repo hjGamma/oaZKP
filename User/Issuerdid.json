@@ -1,0 +1,33 @@
+{
+    "@context": "https://www.w3.org/ns/did/v1",
+    "id": "did:example:issuer1",
+    
+    "verificationMethod": [
+      {
+        "id": "did:example:issuer123#keys-1",
+        "type": "EDDSA",
+        "Ax":"13277427435165878497778222415993513565335242147425444199013288855685581939618",
+        "Ay":"13622229784656158136036771217484571176836296686641868549125388198837476602820"
+      }
+    ],
+    "Enc":[
+      {
+        "type": "Kyber",
+        "publicKey": "yloeGBgilpSAWXpTuyCxj2nH1LeiyVO/nPWzyJQ9kBoHgYAQwALQnatNvHZgycMM3qtp1FAoUGcHIVIcTnUQuTQHu5SuTQmrwca9E2USSew2jiS/cbWLOIhsSvLNHcBZpdIoDrYJC+OkTTCn/op05qghSSSs/9d9VgOrhVsQqrUrUcK92vko7ZgdnsEbMGuDhOGqD7zEGUkR46Ru6ew7uxJ+1LKz5bExtviTTwIcqycqXEZ7bKCeaMTPNsSKSNVlYGi5DabOz0xKV0eWD8fP4Uez+AmjSdiz6MsLbBqMagGN4Js1qvFKR7hrLmRkEbhKW3YUxwqAf2Nq8KyAlhs7ESKJxxO7JWEdNzYkJntJ7vC+nxVpyuFoRwF7KDWfTzgDgRNJJ3y1FBp048zDM9CMEqxDh+BlzcNzMnJ8WeVMYIV23/yye0jFxfeEYWGmicejKseU/QBykSN13yOwvsBbf5ydiudcgUssRUJtQ/xINWuOkNYqdEqwLwm+40VWnRuX0SeESNE0j+NA8jo5eGeiu3qcymOs8cjNSOR+iMWO2kpMPMi7NlJPC7UwzFi+TfRXvtUttcYC0LotvXPIbVWalwCB7RQdhDgEwVGOl6FnQ2oa1BTPqbaZcrZkWAQw3+KfPcCfhJajy9RBmmSzbdkWh3cdWLpWVWtJBvXAk+S9dOaaCxBbPxsQytU+7EOdYUaSG/ia+8SgM8VwdkAtKJQJF5WVpsmLyEaFrQNOS0XE54Yb7QLFmkuj7sW9yGsAluBNqWsB6Bl6LJXAUMxe3JO/Heyy0PWE3sEZ/Iw3o+oPU+XBL6spgFLPe1ipZyA7nDM0R1Kn8uSGyiQ5hVITr8ygGSG/IyhqDMrO3CWLsVNp6hF/ISJu+meSbsWWJrwxvfOB0jMARVfONfNjmceL72vLvjVi5BmwNfd74uM3O2HNaFkEYWVqjRIRe2MgqxlWj2CpV5AsgjRLYhiVcfx11GNlYfqYb2FwsWbJRcIaskMrfuwrVEo3fRwx3KuPlvcg+PGOIuxuWTorxPuknxwTvpd4skl8xyK1VTQKUrstM2iNfrlBgyBpNkSlbrvK71AftVltFtStUoteiUsBXLqx+bcYRaChbVYvIcIlEEgooXItvdETR2kPBPiy00s6inMFZPQfjMjDgYYVuUK4JsuwGQJYAOtj9bCYl2Zu9bEN/CFqLGRfpdspVaAIdEQ//pcXoTk12/OCfvJ8D0uTJ6tUANRenRDCs6m7aKZbm1AYsdGDiVs5l2hYWwvI0/kwpTFipzN7AviuwlBmvHidgBShl7oZXDQPg6WQD/qYuMkBeTmnATkmIXhLUGovgKdp8jmwQgknfKQO1FEr12iSKdEtO1e7mRySccJeTqqfR8ggttqjZjes03htO9dT0UR9qkGwYliR0+WuV2Si8ch9DtJY9OkfAUZH0wS/EYSofsui4tIHrei8EldrWnJY9PRZmQZMYZEZf3BPyPFYiiyv3YCXVotYQ5CFYMZuRAAcAkjD32MwSre3ZqZuq6u4IvFhK2Q+jBMQ1qnCh+Pw9ip7Q149z6HnaDAnuG4z319ewxStYkdUOzw="
+      }
+    ],
+    "authentication": [
+      {
+        "type": "Ed25519SignatureAuthentication2020",
+        "publicKeyBase58": "Hxyz9876efgh5432"
+      }
+    ],
+    "proof": {
+      "type": "Ed25519Signature2020",
+      "created": "2024-09-25T14:00:00Z",
+      "verificationMethod": "did:example:issuer123#keys-1",
+      "proofPurpose": "assertionMethod",
+      "signature": "issuerSignatureABCDEF1234567890"
+    }
+  }
+  
