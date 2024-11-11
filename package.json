@@ -1,0 +1,17 @@
+{
+  "name": "paper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "circomlib": "^2.0.5",
+    "circomlibjs": "^0.1.7",
+    "crystals-kyber": "^5.1.0",
+    "snarkjs": "^0.7.4"
+  }
+}
